@@ -3,10 +3,10 @@
 -- require() this file to launch the menu
 -- ============================================================
 
-local Core     = require(script.Parent.Core)
-local GUI      = require(script.Parent.GUI)
-local Features = require(script.Parent.Features)
-local Troll    = require(script.Parent.Troll)
+local Core     = getgenv().LaiAdmin_Core
+local GUI      = getgenv().LaiAdmin_Gui
+local Features = getgenv().LaiAdmin_Feature -- Lưu ý: map đúng với tên trong Loader của bạn
+local Troll    = getgenv().LaiAdmin_Troll
 
 local T  = Core.Theme
 local S  = Features.State
