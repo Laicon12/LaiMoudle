@@ -6,8 +6,8 @@
 
 local Troll = {}
 
-local Core = require(script.Parent.Core)
-local GUI  = require(script.Parent.GUI)
+local Core = getgenv().LaiAdmin_Core
+local GUI  = getgenv().LaiAdmin_Gui
 
 local RS  = Core.Services.RunService
 local UIS = Core.Services.UserInputService
